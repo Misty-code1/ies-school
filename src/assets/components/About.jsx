@@ -5,15 +5,15 @@ const About = () => {
   const [tab, setTab] = useState("A");
   return (
     <>
-      <div className="md:grid grid-cols-5 py-4 px-4">
+      <div className="md:grid grid-cols-5 md:pt-10 p-4">
         <div className="hidden col-span-2 mr-5 md:flex justify-center">
           <img src={logo} alt="" className=" w-80" />
         </div>
-        <div className="col-span-3 md:pr-12 md:mt-6">
-          <h4 className="text-2xl pt-2 font-semibold text-green-800">
+        <div className="col-span-3 md:pr-28 md:mt-6">
+          <h4 className="text-2xl font-semibold text-green-800">
             ABOUT US
           </h4>
-          <h2 className="text-3xl pt-2 font-semibold">WHO WE ARE</h2>
+          <h2 className="text-2xl md:text-3xl pt-2 font-semibold">WHO WE ARE</h2>
           <div className="flex pt-4 gap-3 text-md md:text-xl font-bold cursor-pointer align-middle text-center">
             <h3
               className={tab === "A" ? "active normal px-4 py-1" : "normal"}
@@ -36,7 +36,7 @@ const About = () => {
             </h3>
           </div>
           {tab === "A" ? (
-            <p className="text-base pt-4">
+            <p className="text-base md:text-lg pt-2">
               Welcome to Ivan Elite School, where excellence in education means
               nurturing and inclusive environment. Our dedicated faculty of
               staff are commited to fostering academic, personal, and social
@@ -47,13 +47,13 @@ const About = () => {
               discovery.{" "}
             </p>
           ) : tab === "B" ? (
-            <p className="text-base pt-4">
+            <p className="text-base md:text-lg pt-2">
               At Ivan Elite School, we empower future leaders through
               transformative education that sparks curiosity, fosters community,
               and fuels ambition.
             </p>
           ) : (
-            <p className="text-base pt-4">
+            <p className="text-base md:text-lg pt-2">
               Ivan Elite School envisions holistic education that nurtures
               well-rounded individuals, blending innovation with tradition, to
               shape compassionate leaders for a better world.

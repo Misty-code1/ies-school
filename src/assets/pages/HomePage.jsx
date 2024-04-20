@@ -1,8 +1,9 @@
-import Events from "../components/Events";
 import Header from "../components/Header";
 import Hero from "../components/Hero";
+import Events from "../components/Events";
 import About from "../components/About";
-// import Footer from "../components/Footer";
+// import Mission from "../components/Mission";
+import Message from "../components/Message";
 const HomePage = () => {
   return (
     <div>
@@ -10,6 +11,8 @@ const HomePage = () => {
       <Hero />
       <Events />
       <About />
+      {/* <Mission /> */}
+      <Message />
     </div>
   );
 };

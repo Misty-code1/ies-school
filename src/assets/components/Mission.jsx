@@ -1,12 +1,10 @@
 const Mission = () => {
   return (
-    <div>
-      Mission
-
-      {/* <div className="mission-section">
+    <div className="text-center py-4">
+      <div className="md:grid grid-cols-2 gap-4">
         <div className="mission-div">
           <h1>
-            <span className="h1-mission">OUR MISSION</span>
+            <span className="text-2xl font-bold ">OUR MISSION</span>
           </h1>
           <p className="mission-sub-title">Empowering Leaders</p>
           <p className="mission">
@@ -17,7 +15,7 @@ const Mission = () => {
         </div>
         <div className="vision-div">
           <h1>
-            <span className="h1-mission">OUR VISION</span>
+            <span className="text-2xl font-bold ">OUR VISION</span>
           </h1>
           <p className="mission-sub-title">Redefining Excellence</p>
           <p className="mission">
@@ -26,7 +24,7 @@ const Mission = () => {
             shape compassionate leaders for a better world.
           </p>
         </div>
-      </div> */}
+      </div>
     </div>
   );
 };

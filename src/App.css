@@ -2,7 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Abbout section */
 .active {
    background: #286e1c;
    color: #fff;
  }
+
+ /*  */

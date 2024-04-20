@@ -21,7 +21,7 @@ const Header = () => {
         <div className=" cursor-pointer flex items-center gap-1">
           <img src={Logo} className="w-16 text-blue-600" />
           <div>
-            <p className="mb-0 pb-0 font-bold text-lg md:text-3xl tracking-wider">
+            <p className="mb-0 pb-0 font-extrabold text-xl md:text-3xl tracking-wider">
               IVAN ELITE
             </p>
             <span className="text-red-700 text-md font-medium ">Nurturing Success</span>

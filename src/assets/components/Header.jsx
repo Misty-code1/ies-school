@@ -24,13 +24,15 @@ const Header = () => {
             <p className="mb-0 pb-0 font-extrabold text-xl md:text-3xl tracking-wider">
               IVAN ELITE
             </p>
-            <span className="text-red-700 text-md font-medium ">Nurturing Success</span>
+            <span className="text-red-700 text-md font-medium ">
+              Nurturing Success
+            </span>
           </div>
         </div>
         {/* Menu icon */}
         <div
           onClick={() => setOpen(!open)}
-          className="absolute right-8 top-6 cursor-pointer md:hidden w-7 h-7 text-green-900"
+          className="absolute right-6 top-4 cursor-pointer md:hidden w-8 h-7"
         >
           {open ? <XMarkIcon /> : <Bars3BottomRightIcon />}
         </div>

@@ -47,7 +47,7 @@ const NewsLetter = () => {
       >
         <h1 className="text-3xl lg:text-6xl text-white font-bold pb-2 md:pb-5 md:pt-10">Ivan Elite School</h1>
         <p className="text-xl md:text-3xl text-white pb-6 md:pb-10">Nuturing success</p>
-        <Link to="/" className="px-8 md:px-16 py-3 md:py-5 shade rounded-full font-semibold cursor-pointer">
+        <Link to="/" className="px-7 md:px-16 py-2 md:py-5 shade rounded-full font-semibold cursor-pointer text-sm md:text-base">
           ENROLL YOUR CHILD TODAY
         </Link>
       </div>

@@ -7,30 +7,30 @@ import { AiOutlineMail } from "react-icons/ai";
 const Footer = () => {
   return (
     <>
-      <div className="staff-div flex flex-col justify-center items-center">
+      <div className="staff-div flex flex-col justify-center items-center pb-10">
         <div className="top-footer">
-          <div className="flex text-center gap-5 icons">
+          <div className="flex text-center gap-6 icons pt-8 cursor-pointer">
             <div>
-              <AiOutlineMail className="w-7  h-7"/>
+              <AiOutlineMail className="w-6  h-7"/>
             </div>
             <div>
-              <FiFacebook className="w-7  h-7"/>
+              <FiFacebook className="w-6  h-7"/>
             </div>
             <div>
-              <FaInstagram className="w-7  h-7"/>
+              <FaInstagram className="w-6  h-7"/>
             </div>
             <div>
-              <FaXTwitter className="w-7  h-7"/>
+              <FaXTwitter className="w-6  h-7"/>
             </div>
           </div>
         </div>
-        <div className="down-footer">
-          <p className="ivan-cp">
-            Ivan Elite School <span className="dot">&#10242;</span> 55 Afariogun
-            Street <span className="dot">&#10242;</span> Oshodi, Lagos State
+        <div className="">
+          <p className="icons text-xs md:text-base pt-3">
+            Ivan Elite School <span className="md:text-lg">&#10242;</span> 55 Afariogun
+            Street <span className="md:text-lg">&#10242;</span> Oshodi, Lagos State
           </p>
-          <p className="copyright">
-            Copyright 2023 <span className="cp-span">&copy;</span> All Rights
+          <p className="icons text-xs md:text-base text-center pt-3">
+            Copyright 2024 <span className="">&copy;</span> All Rights
             Reserved
           </p>
         </div>

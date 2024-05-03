@@ -5,7 +5,7 @@ import lifeImg from "../images/life-img.jpg";
 const Events = () => {
   return (
     <>
-      <div className="hidden h-40 md:flex">
+      <div className="h-40 flex">
         <div
           style={{
             backgroundImage: `linear-gradient(rgba(128, 29, 10, 0.8), rgba(128, 29, 10, 0.8)), url(${eventImg})`,

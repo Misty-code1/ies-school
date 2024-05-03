@@ -9,6 +9,7 @@ import ChooseIvan from "../components/ChooseIvan";
 import Testimonial from "../components/Testimonial"
 import Staff from "../components/Staff"
 import NewsLetter from "../components/NewsLetter"
+import Footer from "../components/Footer"
 const HomePage = () => {
   return (
     <div>
@@ -23,6 +24,7 @@ const HomePage = () => {
       <Testimonial />
       <Staff />
       <NewsLetter />
+      <Footer />
     </div>
   );
 };

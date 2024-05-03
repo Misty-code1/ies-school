@@ -1,21 +1,26 @@
+import { FaInstagram } from "react-icons/fa";
+import { FiFacebook } from "react-icons/fi";
+import { FaXTwitter } from "react-icons/fa6";
+import { AiOutlineMail } from "react-icons/ai";
+
+
 const Footer = () => {
   return (
-    <div>
-      Footer
-      {/* <div className="nl-footer">
+    <>
+      <div className="staff-div flex flex-col justify-center items-center">
         <div className="top-footer">
-          <div className="footer-icons">
+          <div className="flex text-center gap-5 icons">
             <div>
-              <AiOutlineMail />
+              <AiOutlineMail className="w-7  h-7"/>
             </div>
             <div>
-              <FaFacebook />
+              <FiFacebook className="w-7  h-7"/>
             </div>
             <div>
-              <FaInstagram />
+              <FaInstagram className="w-7  h-7"/>
             </div>
             <div>
-              <FaXTwitter />
+              <FaXTwitter className="w-7  h-7"/>
             </div>
           </div>
         </div>
@@ -29,8 +34,8 @@ const Footer = () => {
             Reserved
           </p>
         </div>
-      </div> */}
-    </div>
+      </div>
+    </>
   );
 };
 

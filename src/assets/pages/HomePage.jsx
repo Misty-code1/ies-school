@@ -1,21 +1,17 @@
-import Header from "../components/Header";
 import Hero from "../components/Hero";
-// import Events from "../components/Events";
 import About from "../components/About";
 import Message from "../components/Message";
 import Learning from "../components/Learning";
 import LearningSchools from "../components/LearningSchools";
 import ChooseIvan from "../components/ChooseIvan";
-import Testimonial from "../components/Testimonial"
-import Staff from "../components/Staff"
-import NewsLetter from "../components/NewsLetter"
-import Footer from "../components/Footer"
+import Testimonial from "../components/Testimonial";
+import Staff from "../components/Staff";
+import NewsLetter from "../components/NewsLetter";
+
 const HomePage = () => {
   return (
     <div>
-      <Header />
       <Hero />
-      {/* <Events /> */}
       <About />
       <Message />
       <Learning />
@@ -24,7 +20,6 @@ const HomePage = () => {
       <Testimonial />
       <Staff />
       <NewsLetter />
-      <Footer />
     </div>
   );
 };

@@ -8,10 +8,10 @@ const About = () => {
     <>
       <div className="w-full md:h-4/5 lg:flex justify-center px-3">
         <div className="w-3/5 justify-center items-center hidden lg:flex">
-          <img src={logo} alt="" className="w-3/5 h-fit mt-32" />
+          <img src={logo} alt="" className="w-3/5 h-fit mt-20" />
         </div>
-        <div className="md:w-full mt-6 lg:mt-32 lg:pr-16">
-          <h4 className="text-2xl font-semibold text-green-800">ABOUT US</h4>
+        <div className="md:w-full mt-6 lg:mt-20 lg:pr-16">
+          <h4 className="text-xl md:text-2xl font-semibold text-green-800">ABOUT US</h4>
           <h2 className="text-2xl md:text-3xl pt-2 font-semibold">
             WHO WE ARE
           </h2>

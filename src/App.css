@@ -31,7 +31,7 @@ p {
   color: #286e1c;
 }
 
-.staff {
+.staff, .message {
   background: #f6f3f3;
 }
 

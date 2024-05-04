@@ -5,10 +5,10 @@ import afterImg from "../images/afterImg.jpg";
 
 const LearningSchools = () => {
   return (
-    <div className="md:text-center px-3 md:px-20 py-3">
+    <div className="text-center px-4 md:px-20 py-3">
       <div className="">
-        <p className="text-base font-semibold md:text-2xl md:pt-5">Explore Our Programs</p>
-        <p className="pt-2 md:pt-3 text-base">
+        <p className="text-xl font-semibold md:text-4xl pt-2 md:pt-8">Explore Our Programs</p>
+        <p className="pt-2 md:pt-3 text-base px-4 md:px-0">
           Looking for quality Education? <br /> Look no futher, Explore our range of
           programs including creche, nursery, primary, and after-school care.
           Enroll your child today.
